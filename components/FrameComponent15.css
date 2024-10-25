@@ -1,0 +1,144 @@
+.user-flow2 {
+  position: relative;
+  display: inline-block;
+  min-width: 124px;
+}
+.finorauserflow-1-icon {
+  width: 912.5px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+.flowchart-visual {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  max-width: 100%;
+}
+.user-flow-content,
+.user-flow-details {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.user-flow-details {
+  flex: 1;
+  flex-direction: column;
+  gap: 81px;
+}
+.user-flow-content {
+  width: 1055.5px;
+  flex-direction: row;
+  padding: 0 49px;
+  box-sizing: border-box;
+}
+.designs1 {
+  position: relative;
+  display: inline-block;
+  min-width: 97px;
+}
+.designs-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 73px 0 74px;
+}
+.finorra-1-icon {
+  align-self: stretch;
+}
+.finorahome-1-icon,
+.finorra-1-icon {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.u-i-design-details {
+  width: 1071.7px;
+  display: grid;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 49.1px;
+  max-width: 100%;
+  grid-template-columns: repeat(4, minmax(174px, 1fr));
+}
+.u-i-design {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 26px;
+  box-sizing: border-box;
+}
+.u-i-design,
+.user-flow-wrapper,
+.user-flow1 {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.user-flow1 {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 47.3px;
+}
+.user-flow-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 54px 18px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 24px;
+  color: #000;
+  font-family: Inter;
+}
+@media screen and (max-width: 1050px) {
+  .user-flow-details {
+    gap: 40px;
+  }
+  .user-flow-content {
+    padding-left: 24px;
+    padding-right: 24px;
+    box-sizing: border-box;
+  }
+  .u-i-design-details {
+    justify-content: center;
+    grid-template-columns: repeat(2, minmax(174px, 302px));
+  }
+}
+@media screen and (max-width: 750px) {
+  .user-flow-details {
+    gap: 20px;
+  }
+  .u-i-design-details {
+    gap: 25px;
+  }
+  .user-flow1 {
+    gap: 24px;
+  }
+  .user-flow-wrapper {
+    padding-left: 27px;
+    padding-right: 27px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .designs1,
+  .user-flow2 {
+    font-size: 19px;
+  }
+  .finorahome-1-icon {
+    width: 100%;
+  }
+  .u-i-design-details {
+    grid-template-columns: minmax(174px, 1fr);
+  }
+}

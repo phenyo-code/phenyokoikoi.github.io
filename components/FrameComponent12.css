@@ -1,0 +1,169 @@
+.a {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.a-b-testing,
+.options {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.options {
+  width: 664px;
+  justify-content: space-between;
+  gap: 20px;
+}
+.a-b-testing {
+  width: 1062px;
+  justify-content: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+.healthcare-providers-will {
+  margin-bottom: 0;
+}
+.healthcare-providers-will-have {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: 32px;
+}
+.consultations {
+  margin: 0;
+  white-space: pre-wrap;
+}
+.problem-healthcare-providers-container {
+  align-self: stretch;
+  position: relative;
+  font-weight: 600;
+}
+.implement-a-speech-to-text {
+  margin: 0;
+}
+.goal-implement-a-container {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  max-width: 100%;
+}
+.final-u-i-images,
+.problem-solution {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.problem-solution {
+  gap: 35px;
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.final-u-i-images {
+  gap: 73px;
+}
+.final-ui1 {
+  position: relative;
+  font-size: 24px;
+}
+.final-u-i-details,
+.final-u-i-images-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.final-u-i-images-parent {
+  flex: 1;
+  flex-direction: column;
+  gap: 95px;
+}
+.final-u-i-details {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 3px;
+  box-sizing: border-box;
+}
+.imockup-iphone-13-2 {
+  width: 200px;
+  height: 404.4px;
+  position: relative;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+.final-u-i-content,
+.final-u-i-content-wrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.final-u-i-content {
+  width: 1095px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 121px;
+}
+.final-u-i-content-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 20px 10.6px 49px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 36px;
+  color: #000;
+  font-family: Inter;
+}
+@media screen and (max-width: 1200px) {
+  .final-u-i-images {
+    gap: 36px;
+  }
+  .final-u-i-images-parent {
+    gap: 47px;
+  }
+  .final-u-i-content {
+    gap: 60px;
+  }
+  .final-u-i-content-wrapper {
+    padding-left: 24px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .a {
+    font-size: 29px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .problem-solution {
+    gap: 17px;
+  }
+  .final-u-i-images {
+    gap: 18px;
+  }
+  .final-u-i-images-parent {
+    gap: 24px;
+  }
+  .final-u-i-content {
+    gap: 30px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .a {
+    font-size: 22px;
+  }
+  .final-ui1,
+  .goal-implement-a-container,
+  .problem-healthcare-providers-container {
+    font-size: 19px;
+  }
+  .final-u-i-content {
+    gap: 15px;
+  }
+}

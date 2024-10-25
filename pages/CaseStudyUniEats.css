@@ -1,0 +1,383 @@
+.overview2 {
+  position: relative;
+  display: inline-block;
+  min-width: 114px;
+}
+.overview-title {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 1px 0 2px;
+}
+.unieats-is-a {
+  margin: 0;
+}
+.unieats-is-a-container {
+  position: relative;
+  font-weight: 500;
+}
+.problem-content {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 3px;
+}
+.problem-statement {
+  position: relative;
+  color: #000;
+}
+.app-overview,
+.problem-content-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.problem-content-parent {
+  align-self: stretch;
+  gap: 32px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.app-overview {
+  flex: 1;
+  gap: 24px;
+  max-width: 100%;
+}
+.figma2 {
+  position: relative;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.6);
+  display: inline-block;
+  min-width: 72px;
+}
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.research-uiux1,
+.role1 {
+  position: relative;
+  font-weight: 600;
+}
+.research-uiux1 {
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.6);
+}
+.timeline1 {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 101px;
+}
+.app-description,
+.project-details1,
+.timeline-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 9px;
+}
+.app-description,
+.project-details1 {
+  gap: 39px;
+}
+.app-description {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 57px;
+  max-width: 100%;
+}
+.problem-description {
+  flex-direction: row;
+  padding: 0 1px;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.6);
+}
+.app-details,
+.app-summary,
+.problem-description {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.app-details {
+  flex: 1;
+  flex-direction: column;
+  gap: 24px;
+}
+.app-summary {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 36px 0 31px;
+  box-sizing: border-box;
+}
+.time-constraints-students-container {
+  height: 231px;
+  position: relative;
+  font-weight: 600;
+  display: flex;
+  align-items: flex-end;
+  flex-shrink: 0;
+}
+.solution-development {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 59px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.screenshot-2024-10-24-124500-1 {
+  height: 600px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.findings-screenshot {
+  flex-direction: row;
+  padding: 0 59px;
+  box-sizing: border-box;
+}
+.findings-content,
+.findings-content-wrapper,
+.findings-screenshot {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.findings-content {
+  flex: 1;
+  flex-direction: column;
+  gap: 27px;
+}
+.findings-content-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 30px 31px;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.6);
+}
+.final-ui {
+  position: relative;
+}
+.final-ui-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 31px 0 32px;
+}
+.overview-content,
+.overview-content-wrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.overview-content {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 56px;
+}
+.overview-content-wrapper {
+  width: 1234px;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 26px 33px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 24px;
+  color: #000;
+  font-family: Inter;
+}
+.food-1-icon,
+.home12-1-icon {
+  height: 700px;
+  position: relative;
+  max-width: 100%;
+  object-fit: cover;
+}
+.home12-1-icon {
+  width: 784px;
+}
+.food-1-icon {
+  flex: 1;
+  overflow: hidden;
+  min-width: 510px;
+  z-index: 1;
+}
+.screen-types {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  row-gap: 20px;
+  max-width: 100%;
+}
+.cartfood-1-icon {
+  width: 784px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+.cart-example,
+.screen-examples {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.screen-examples {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 0 33px;
+  gap: 52px;
+}
+.prototype-child {
+  height: 122px;
+  width: 1065px;
+  position: relative;
+  background-color: #dd3539;
+  display: none;
+  max-width: 100%;
+}
+.view-prototype {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 2;
+}
+.prototype,
+.prototype-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.prototype {
+  background-color: #dd3539;
+  justify-content: flex-start;
+  padding: 39px 369px 39px 371px;
+  z-index: 1;
+}
+.prototype-wrapper {
+  justify-content: flex-end;
+  padding: 0 108px 0 107px;
+  text-align: left;
+  font-size: 36px;
+  color: #fff;
+  font-family: Inter;
+}
+.case-study-unieats {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 179px;
+  box-sizing: border-box;
+  gap: 24px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .findings-screenshot {
+    padding-left: 29px;
+    padding-right: 29px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .app-description {
+    flex-wrap: wrap;
+  }
+  .home12-1-icon {
+    flex: 1;
+  }
+  .screen-types {
+    flex-wrap: wrap;
+  }
+  .view-prototype {
+    font-size: 29px;
+  }
+  .prototype {
+    padding-left: 185px;
+    padding-right: 184px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .app-overview {
+    min-width: 100%;
+  }
+  .app-description,
+  .overview-content {
+    gap: 28px;
+  }
+  .food-1-icon {
+    min-width: 100%;
+  }
+  .screen-examples {
+    gap: 26px;
+  }
+  .prototype,
+  .prototype-wrapper {
+    padding-left: 92px;
+    padding-right: 92px;
+    box-sizing: border-box;
+  }
+  .prototype-wrapper {
+    padding-left: 53px;
+    padding-right: 54px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .overview2,
+  .problem-statement,
+  .unieats-is-a-container {
+    font-size: 19px;
+  }
+  .problem-content-parent {
+    gap: 16px;
+  }
+  .figma2,
+  .final-ui,
+  .research-uiux1,
+  .role1,
+  .time-constraints-students-container,
+  .timeline1 {
+    font-size: 19px;
+  }
+  .view-prototype {
+    font-size: 22px;
+  }
+  .prototype,
+  .prototype-wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,142 @@
+.user-research5 {
+    position: relative;
+  }
+  .researchroom {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1102px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 405px;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .current-university-students {
+    margin: 0;
+  }
+  .to-understand-the-container2 {
+    position: relative;
+    font-weight: 600;
+    display: inline-block;
+    max-width: 100%;
+  }
+  .long-waiting-times {
+    margin-bottom: 0;
+  }
+  .long-waiting-times-all-studen {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    padding-left: 32px;
+  }
+  .for-on-campus-housing {
+    margin: 0;
+    white-space: pre-wrap;
+  }
+  .key-insights-from-container {
+    position: relative;
+    font-weight: 600;
+  }
+  .key-insights-container,
+  .research-insights-layout {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .key-insights-container {
+    flex-direction: row;
+    padding: 0 0 0 3px;
+  }
+  .research-insights-layout {
+    flex-direction: column;
+    gap: 49px;
+    max-width: 100%;
+  }
+  .easy-booking-process-container {
+    position: relative;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  .goalroom,
+  .research-insights-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .goalroom {
+    gap: 45px;
+    color: #000;
+  }
+  .research-insights-container {
+    position: absolute;
+    top: 66px;
+    left: 0;
+    gap: 84px;
+    width: 100%;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  .research-layout {
+    height: 911px;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+  }
+  .research-layout-wrapper {
+    width: 1252px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 75px 99px;
+    box-sizing: border-box;
+    max-width: 100%;
+    text-align: left;
+    font-size: 24px;
+    color: #000;
+    font-family: Inter;
+  }
+  @media screen and (max-width: 1200px) {
+    .research-insights-container {
+      gap: 42px;
+    }
+    .research-layout-wrapper {
+      padding-left: 37px;
+      padding-right: 37px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 1050px) {
+    .research-layout-wrapper {
+      padding-bottom: 64px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .research-insights-layout {
+      gap: 24px;
+    }
+    .goalroom {
+      gap: 22px;
+    }
+    .research-insights-container {
+      gap: 21px;
+    }
+    .research-layout-wrapper {
+      padding-bottom: 42px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .easy-booking-process-container,
+    .key-insights-from-container,
+    .to-understand-the-container2,
+    .user-research5 {
+      font-size: 19px;
+    }
+  }
+  

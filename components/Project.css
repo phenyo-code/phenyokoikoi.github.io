@@ -1,0 +1,164 @@
+.levels-child,
+.project-child {
+  position: relative;
+  display: none;
+  max-width: 100%;
+}
+.project-child {
+  width: 1280px;
+  height: 501px;
+  background: linear-gradient(180deg, #dd3539, #771d1f);
+}
+.levels-child {
+  width: 1075px;
+  height: 75px;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  box-sizing: border-box;
+}
+.goals,
+.overview7,
+.problem8,
+.research6 {
+  text-decoration: none;
+  position: relative;
+  font-weight: 600;
+  color: inherit;
+  z-index: 3;
+}
+.goals,
+.problem8,
+.research6 {
+  display: inline-block;
+  min-width: 98px;
+  z-index: 2;
+}
+.goals,
+.research6 {
+  min-width: 110px;
+}
+.goals {
+  min-width: 68px;
+}
+.final-ui7,
+.flow,
+.next-steps6,
+.testing1,
+.wireframes1 {
+  text-decoration: none;
+  position: relative;
+  font-weight: 600;
+  color: inherit;
+  z-index: 2;
+}
+.wireframes1 {
+  flex: 1;
+}
+.final-ui7,
+.next-steps6,
+.testing1 {
+  display: inline-block;
+  min-width: 88px;
+}
+.final-ui7,
+.next-steps6 {
+  min-width: 87px;
+}
+.next-steps6 {
+  flex: 1;
+  min-width: 129px;
+}
+.hierarchy,
+.overview-parent {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.overview-parent {
+  width: 1042px;
+  gap: 20.9px;
+  text-align: left;
+  font-size: 24px;
+  color: #000;
+  font-family: Inter;
+}
+.hierarchy {
+  align-self: stretch;
+  padding: 0 0 0 3px;
+  box-sizing: border-box;
+}
+.placeholder4 {
+  margin-top: -3px;
+  position: relative;
+  display: inline-block;
+  min-width: 117px;
+  z-index: 2;
+}
+.content4 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+}
+.levels {
+  flex: 1;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  flex-direction: column;
+  padding: 21px 14px 0;
+  z-index: 1;
+  text-align: left;
+  font-size: 24px;
+  color: #1e1e1e;
+  font-family: Inter;
+}
+.levels,
+.project,
+.structure2 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.structure2 {
+  flex-direction: row;
+  padding: 0 0 0 2px;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+}
+.project {
+  background: linear-gradient(180deg, #dd3539, #771d1f);
+  flex-direction: column;
+  padding: 16px 100px 49.9px 103px;
+  text-align: left;
+  font-size: 40px;
+  color: #fff;
+  font-family: Inter;
+}
+@media screen and (max-width: 1050px) {
+  .hierarchy {
+    display: none;
+  }
+}
+@media screen and (max-width: 750px) {
+  .project {
+    padding: 20px 50px 32px 51px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .project {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+}

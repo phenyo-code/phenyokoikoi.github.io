@@ -1,0 +1,33 @@
+.paywithcard-2-icon,
+.receiptnwu-2-icon {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  max-height: 100%;
+  width: 784px;
+  object-fit: cover;
+  z-index: 3;
+}
+.receiptnwu-2-icon {
+  left: 425px;
+  z-index: 4;
+}
+.prototype-link {
+  align-self: stretch;
+  height: 700px;
+  position: relative;
+}
+.prototype-link-parent {
+  position: absolute;
+  top: 4606px;
+  left: 71px;
+  width: 1209px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 57px;
+  max-width: 100%;
+}

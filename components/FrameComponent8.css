@@ -1,0 +1,207 @@
+.frame-child5,
+.methodology-heading-child {
+  position: relative;
+  display: none;
+  max-width: 100%;
+}
+.frame-child5 {
+  width: 1280px;
+  height: 501px;
+  background: linear-gradient(180deg, #724993, #23162d);
+}
+.methodology-heading-child {
+  width: 785px;
+  height: 75px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  box-sizing: border-box;
+}
+.research2 {
+  position: relative;
+  font-weight: 600;
+  z-index: 4;
+}
+.research-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 1px 0 0;
+  box-sizing: border-box;
+  min-width: 75px;
+}
+.personas2,
+.user-flow5 {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 110px;
+  z-index: 3;
+}
+.user-flow5 {
+  flex: 1;
+  min-width: 79px;
+  white-space: nowrap;
+}
+.testing {
+  display: inline-block;
+  min-width: 88px;
+}
+.designs3,
+.prototype2,
+.testing {
+  position: relative;
+  font-weight: 600;
+  z-index: 3;
+}
+.prototype2 {
+  flex: 1;
+  display: inline-block;
+  min-width: 75px;
+}
+.university-name,
+.university-name-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.university-name {
+  width: 733px;
+  gap: 19px;
+}
+.university-name-wrapper {
+  align-self: stretch;
+  padding: 0 1px 0 3px;
+  box-sizing: border-box;
+}
+.logo {
+  margin-top: -3px;
+  position: relative;
+  display: inline-block;
+  min-width: 117px;
+  z-index: 3;
+}
+.logo-wrapper,
+.methodology-heading,
+.methodology1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.logo-wrapper {
+  flex-direction: row;
+  padding: 0;
+  color: #1e1e1e;
+}
+.methodology-heading,
+.methodology1 {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.methodology-heading {
+  flex: 1;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  flex-direction: column;
+  padding: 21px 23px 0;
+  z-index: 2;
+}
+.methodology1 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 135px 0 150px;
+}
+.nwu1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 103px;
+  z-index: 1;
+}
+.university-registration-system {
+  position: relative;
+  font-size: 24px;
+  z-index: 1;
+}
+.nwu-group,
+.rectangle-parent4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 4px;
+  max-width: 100%;
+  font-size: 40px;
+  color: #fff;
+}
+.rectangle-parent4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(180deg, #724993, #23162d);
+  width: 100%;
+  padding: 34px 105px 76px;
+  box-sizing: border-box;
+  gap: 231px;
+  min-height: 501px;
+  text-align: left;
+  font-size: 24px;
+  color: #000;
+  font-family: Inter;
+}
+@media screen and (max-width: 1050px) {
+  .university-name {
+    flex-wrap: wrap;
+  }
+  .methodology1 {
+    padding-left: 75px;
+    padding-right: 67px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .methodology1 {
+    padding-left: 37px;
+    padding-right: 33px;
+    box-sizing: border-box;
+  }
+  .nwu1 {
+    font-size: 32px;
+  }
+  .rectangle-parent4 {
+    gap: 115px;
+    padding-left: 52px;
+    padding-right: 52px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .designs3,
+  .logo,
+  .personas2,
+  .prototype2,
+  .research2,
+  .testing,
+  .user-flow5 {
+    font-size: 19px;
+  }
+  .nwu1 {
+    font-size: 24px;
+  }
+  .university-registration-system {
+    font-size: 19px;
+  }
+  .rectangle-parent4 {
+    gap: 58px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+}

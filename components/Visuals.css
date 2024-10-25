@@ -1,0 +1,74 @@
+.unieats1 {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.food-delivery-app1,
+.unieats1 {
+  position: relative;
+  z-index: 1;
+}
+.branding,
+.description,
+.elements {
+  display: flex;
+  align-items: flex-start;
+}
+.description {
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0 0 0 2px;
+  font-size: 24px;
+}
+.branding,
+.elements {
+  flex-direction: column;
+}
+.branding {
+  justify-content: flex-start;
+  gap: 5px;
+}
+.elements {
+  justify-content: flex-end;
+  padding: 0 0 26.1px;
+}
+.unieats-2-icon {
+  width: 400px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+  z-index: 1;
+}
+.visuals {
+  width: 946px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: 20px;
+  text-align: left;
+  font-size: 40px;
+  color: #fff;
+  font-family: Inter;
+}
+@media screen and (max-width: 1050px) {
+  .unieats1 {
+    font-size: 32px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .visuals {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .unieats1 {
+    font-size: 24px;
+  }
+  .food-delivery-app1 {
+    font-size: 19px;
+  }
+}

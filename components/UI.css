@@ -1,0 +1,95 @@
+.designs4 {
+  position: relative;
+  display: inline-block;
+  min-width: 97px;
+}
+.u-i-designs {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 105px 0 106px;
+}
+.preview-set-icon {
+  position: absolute;
+  top: 0;
+  left: 414px;
+  width: 682.9px;
+  height: 600px;
+  object-fit: cover;
+}
+.preview-set-icon1,
+.preview-set-icon2,
+.preview-set-icon3,
+.preview-set-icon4,
+.preview-set-icon5 {
+  position: absolute;
+  top: 0;
+  left: 687px;
+  width: 682.9px;
+  height: 600px;
+  object-fit: cover;
+  z-index: 1;
+}
+.preview-set-icon2,
+.preview-set-icon3,
+.preview-set-icon4,
+.preview-set-icon5 {
+  left: -124px;
+}
+.preview-set-icon3,
+.preview-set-icon4,
+.preview-set-icon5 {
+  left: 141px;
+  z-index: 2;
+}
+.preview-set-icon4,
+.preview-set-icon5 {
+  top: 546px;
+  left: -124px;
+  z-index: 3;
+}
+.preview-set-icon5 {
+  left: 141px;
+  z-index: 4;
+}
+.design-previews {
+  align-self: stretch;
+  height: 1146px;
+  position: relative;
+}
+.ui {
+  margin-right: -89.9px;
+  margin-bottom: 18px;
+  width: 1493.9px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 89px 0 124px;
+  box-sizing: border-box;
+  gap: 16px;
+  max-width: 117%;
+  text-align: left;
+  font-size: 24px;
+  color: #000;
+  font-family: Inter;
+}
+@media screen and (max-width: 750px) {
+  .ui {
+    padding-left: 62px;
+    padding-right: 44px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .designs4 {
+    font-size: 19px;
+  }
+  .u-i-designs,
+  .ui {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+}
