@@ -1,0 +1,45 @@
+.main-content-wrapper {
+  width: 1249px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 39px 49px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.case-study-flare-child {
+  width: 1065px;
+  height: 122px;
+  position: relative;
+  background-color: #dd3539;
+  display: none;
+  max-width: 100%;
+}
+.case-study-flare {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 230px;
+  box-sizing: border-box;
+  gap: 24px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .main-content-wrapper {
+    padding-bottom: 21px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .main-content-wrapper {
+    padding-bottom: 20px;
+    box-sizing: border-box;
+  }
+}

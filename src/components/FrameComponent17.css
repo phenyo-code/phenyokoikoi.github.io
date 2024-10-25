@@ -1,0 +1,131 @@
+.frame-child6 {
+  height: 77px;
+  width: 1070px;
+  position: relative;
+  border-radius: 10px;
+  background-color: rgba(217, 217, 217, 0.1);
+  display: none;
+  max-width: 100%;
+}
+.phenyok {
+  text-decoration: none;
+  position: relative;
+  font-weight: 700;
+  color: inherit;
+  display: inline-block;
+  min-width: 127px;
+  z-index: 1;
+}
+.phenyok-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 6px 0 0;
+}
+.my-work3 {
+  display: inline-block;
+  min-width: 107px;
+  cursor: pointer;
+}
+.about2,
+.my-work3 {
+  text-decoration: none;
+  position: relative;
+  font-weight: 700;
+  color: inherit;
+  z-index: 1;
+}
+.my-work-about,
+.my-work2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.my-work-about {
+  flex-direction: row;
+  gap: 27.9px;
+}
+.my-work2 {
+  flex-direction: column;
+  padding: 8px 10px 0 0;
+}
+.frame-child7 {
+  height: 45px;
+  width: 144px;
+  z-index: 1;
+}
+.frame-nav {
+  margin: 0;
+  align-self: stretch;
+  border-radius: 10px;
+  background-color: rgba(217, 217, 217, 0.1);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 18px 12px 14px 37px;
+  box-sizing: border-box;
+  max-width: 100%;
+  gap: 20px;
+  text-align: left;
+  font-size: 24px;
+  color: #fff;
+  font-family: Inter;
+}
+.b4 {
+  position: relative;
+}
+.about-inner,
+.frame-parent11,
+.wrapper1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.wrapper1 {
+  flex-direction: row;
+  padding: 0 411px 0 544px;
+  margin-top: -23px;
+}
+.about-inner,
+.frame-parent11 {
+  max-width: 100%;
+}
+.frame-parent11 {
+  flex: 1;
+  flex-direction: column;
+  text-align: left;
+  font-size: 24px;
+  color: #fff;
+  font-family: Inter;
+}
+.about-inner {
+  flex-direction: row;
+  padding: 0 1px;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 1050px) {
+  .frame-nav {
+    display: none;
+  }
+  .wrapper1 {
+    padding-left: 272px;
+    padding-right: 205px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 725px) {
+  .wrapper1 {
+    padding-left: 136px;
+    padding-right: 102px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .wrapper1 {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+}

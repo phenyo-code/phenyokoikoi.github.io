@@ -1,0 +1,261 @@
+.overview5 {
+  position: relative;
+  display: inline-block;
+  min-width: 114px;
+}
+.heading {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 1px 0 2px;
+}
+.finora-is-a {
+  margin: 0;
+}
+.finora-is-a-container {
+  position: relative;
+  color: rgba(0, 0, 0, 0.6);
+}
+.intro {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 34px;
+  min-width: 561px;
+  max-width: 100%;
+}
+.figma-sketch {
+  position: relative;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.6);
+}
+.tools-and-role {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.research-uiux3,
+.role3 {
+  position: relative;
+  font-weight: 600;
+}
+.research-uiux3 {
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+.april-2024,
+.timeline3 {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 101px;
+}
+.april-2024 {
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.6);
+  min-width: 122px;
+}
+.project-details2,
+.timeline-parent1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 9px;
+}
+.project-details2 {
+  gap: 39px;
+}
+.home-1-icon,
+.overview-details1 {
+  align-self: stretch;
+  max-width: 100%;
+}
+.overview-details1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 48px;
+}
+.home-1-icon {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.research-objectives {
+  position: relative;
+  font-size: 20px;
+  font-weight: 600;
+}
+.home-visual,
+.research-goals {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+}
+.home-visual {
+  width: 232.2px;
+  gap: 31px;
+}
+.cards-1-icon {
+  height: 500px;
+  width: 230.7px;
+  position: relative;
+  object-fit: cover;
+}
+.research-highlights {
+  width: 967.7px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 0 17px;
+  box-sizing: border-box;
+  gap: 20px;
+  max-width: 100%;
+}
+.identify-the-key-container {
+  position: relative;
+}
+.identifying-features {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.understanding-needs {
+  width: 977px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 17px;
+  box-sizing: border-box;
+  gap: 24px;
+  max-width: 100%;
+  color: rgba(0, 0, 0, 0.6);
+}
+.key-findings {
+  position: relative;
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+  display: inline-block;
+  min-width: 122px;
+}
+.findings,
+.survey-methodology {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+  max-width: 100%;
+}
+.findings {
+  gap: 29px;
+}
+.expressed-interest-in {
+  margin: 0;
+  white-space: pre-wrap;
+}
+.expressed-interest-in-container {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.methodology {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 24px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.methodology,
+.overview-content-container,
+.overview-content1 {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.overview-content1 {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 7px;
+}
+.overview-content-container {
+  width: 1239px;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 62px 53px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 24px;
+  color: #000;
+  font-family: Inter;
+}
+@media screen and (max-width: 1200px) {
+  .overview-content-container {
+    padding-left: 31px;
+    padding-right: 31px;
+    padding-bottom: 34px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .overview-details1,
+  .research-highlights {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .intro {
+    min-width: 100%;
+  }
+  .overview-details1 {
+    gap: 24px;
+  }
+  .overview-content-container {
+    padding-bottom: 22px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .finora-is-a-container,
+  .overview5 {
+    font-size: 19px;
+  }
+  .intro {
+    gap: 17px;
+  }
+  .april-2024,
+  .figma-sketch,
+  .research-uiux3,
+  .role3,
+  .timeline3 {
+    font-size: 19px;
+  }
+  .research-objectives {
+    font-size: 16px;
+  }
+  .identify-the-key-container {
+    font-size: 19px;
+  }
+  .key-findings {
+    font-size: 16px;
+  }
+  .expressed-interest-in-container {
+    font-size: 19px;
+  }
+}

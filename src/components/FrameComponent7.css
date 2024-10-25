@@ -1,0 +1,117 @@
+.results2 {
+    text-decoration: none;
+    position: relative;
+    font-weight: 600;
+    color: #000;
+  }
+  .results-child {
+    width: 1065px;
+    height: 122px;
+    position: relative;
+    background-color: #dd3539;
+    display: none;
+    max-width: 100%;
+  }
+  .reduction-in-application {
+    margin: 0;
+  }
+  .reduction-in-application-container {
+    position: relative;
+    font-weight: 600;
+  }
+  .results-description-container,
+  .results1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .results-description-container {
+    flex-direction: row;
+    padding: 0 4px;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  .results1 {
+    flex-direction: column;
+    gap: 47px;
+  }
+  .next-steps5 {
+    position: relative;
+    font-weight: 600;
+    display: inline-block;
+    min-width: 129px;
+  }
+  .next-steps-layout {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 3px 0 4px;
+  }
+  .the-country {
+    margin: 0;
+    white-space: pre-wrap;
+  }
+  .roll-out-roomify-container {
+    position: relative;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  .nextstepsroomify {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 41px;
+    color: #000;
+  }
+  .results-layout,
+  .results-layout-wrapper {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .results-layout {
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 47px;
+  }
+  .results-layout-wrapper {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 0 81px 0 80px;
+    box-sizing: border-box;
+    text-align: left;
+    font-size: 24px;
+    color: #fff;
+    font-family: Inter;
+  }
+  @media screen and (max-width: 750px) {
+    .results1 {
+      gap: 23px;
+    }
+    .nextstepsroomify {
+      gap: 20px;
+    }
+    .results-layout {
+      gap: 23px;
+    }
+    .results-layout-wrapper {
+      padding-left: 40px;
+      padding-right: 40px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .next-steps5,
+    .reduction-in-application-container,
+    .results2,
+    .roll-out-roomify-container {
+      font-size: 19px;
+    }
+  }
+  

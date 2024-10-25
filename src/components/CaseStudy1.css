@@ -1,0 +1,150 @@
+.case-study-item,
+.frame-child4 {
+  position: relative;
+  display: none;
+  max-width: 100%;
+}
+.case-study-item {
+  width: 1280px;
+  height: 501px;
+  background: linear-gradient(180deg, #289ec5, #134c5f);
+}
+.frame-child4 {
+  width: 1075px;
+  height: 75px;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  box-sizing: border-box;
+}
+.research1 {
+  text-decoration: none;
+  position: relative;
+  font-weight: 600;
+  color: inherit;
+  z-index: 3;
+}
+.research-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.problem2 {
+  text-decoration: none;
+  position: relative;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  min-width: 98px;
+  z-index: 2;
+}
+.personas1 {
+  display: inline-block;
+  min-width: 110px;
+}
+.final-ui2,
+.personas1,
+.user-flow {
+  text-decoration: none;
+  position: relative;
+  font-weight: 600;
+  color: inherit;
+  z-index: 2;
+}
+.final-ui2 {
+  display: inline-block;
+  min-width: 87px;
+}
+.content-wrapper,
+.content2 {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.content2 {
+  width: 1007px;
+  justify-content: space-between;
+  gap: 20px;
+  text-align: left;
+  font-size: 24px;
+  color: #000;
+  font-family: Inter;
+}
+.content-wrapper {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 9px 0 3px;
+  box-sizing: border-box;
+}
+.b2 {
+  margin-top: -3px;
+  position: relative;
+  display: inline-block;
+  min-width: 117px;
+  z-index: 2;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+}
+.frame-header {
+  flex: 1;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  flex-direction: column;
+  padding: 21px 27px 0;
+  z-index: 1;
+  text-align: left;
+  font-size: 24px;
+  color: #1e1e1e;
+  font-family: Inter;
+}
+.case-study1,
+.frame-header,
+.structure1 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.structure1 {
+  flex-direction: row;
+  padding: 0 0 0 2px;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+}
+.case-study1 {
+  background: linear-gradient(180deg, #289ec5, #134c5f);
+  flex-direction: column;
+  padding: 16px 100px 0 103px;
+  gap: 11px;
+}
+@media screen and (max-width: 1050px) {
+  .content-wrapper {
+    display: none;
+  }
+}
+@media screen and (max-width: 750px) {
+  .case-study1 {
+    padding-left: 51px;
+    padding-right: 50px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .case-study1 {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+}

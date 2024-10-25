@@ -1,0 +1,261 @@
+.roomify {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 97px;
+}
+.accommodation1 {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: 32px;
+}
+.accommodation {
+  position: relative;
+  font-weight: 600;
+}
+.accommodation-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 95px 0 96px;
+  box-sizing: border-box;
+  max-width: 100%;
+  margin-top: -29px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.rectangle-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 5px;
+  background: linear-gradient(180deg, #e46035, #7e351d);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.roomify-1-icon {
+  position: absolute;
+  top: 114px;
+  left: 323px;
+  width: 200px;
+  height: 178.6px;
+  object-fit: cover;
+  z-index: 1;
+}
+.rectangle-parent1 {
+  position: absolute;
+  top: 0;
+  left: 23px;
+  border-radius: 5px;
+  background: linear-gradient(180deg, #e46035, #7e351d);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-sizing: border-box;
+  width: 525px;
+  height: 406px;
+}
+.placeholder-icon1 {
+  position: absolute;
+  top: 17px;
+  left: 0;
+  width: 500px;
+  height: 446.4px;
+  object-fit: cover;
+  z-index: 2;
+}
+.frame-parent10 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.roomify-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 420px 23px 14.4px;
+  box-sizing: border-box;
+  min-width: 356px;
+  cursor: pointer;
+  z-index: 1;
+}
+.flare-1-icon,
+.frame-child1,
+.roomify-parent {
+  position: relative;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+
+.frame-child1 {
+  height: 406px;
+  width: 525px;
+  border-radius: 5px;
+  background: linear-gradient(180deg, #a1a1a1, #3b3b3b);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-sizing: border-box;
+  display: none;
+}
+.flare-1-icon {
+  height: 357.1px;
+  flex: 1;
+  overflow: hidden;
+  object-fit: cover;
+  z-index: 1;
+}
+.group-div {
+  align-self: stretch;
+  flex: 1;
+  border-radius: 5px;
+  background: linear-gradient(180deg, #a1a1a1, #3b3b3b);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 34px 59px 11px 66px;
+  max-width: 100%;
+  cursor: pointer;
+}
+.e-commerce {
+  position: relative;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.5);
+}
+.flare-ecommerce {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-right: 20;
+  gap: 2px;
+}
+.flare-name,
+.roomify-details {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.flare-name {
+  height: 449px;
+  width: 525px;
+  flex-direction: column;
+  position: relative;
+  color: #a1a1a1;
+  gap: 14px;
+}
+.roomify-details {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+.responsive-web-app1 {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  max-width: 100%;
+}
+.mobile-app-uiux1 {
+  position: relative;
+  font-weight: 600;
+  color: #a1a1a1;
+}
+.flare-item,
+.flare-item-wrapper,
+.health-details {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.flare-item {
+  width: 846px;
+  flex-direction: row;
+  gap: 134px;
+}
+.flare-item-wrapper,
+.health-details {
+  box-sizing: border-box;
+}
+.flare-item-wrapper {
+  flex-direction: row;
+  padding: 0 23px;
+  margin-top: -0.4px;
+  color: #e46035;
+}
+.health-details {
+  align-self: stretch;
+  flex-direction: column;
+  padding: 0 0 16px;
+  text-align: left;
+  font-size: 24px;
+  color: #fff;
+  font-family: Inter;
+}
+@media screen and (max-width: 1100px) {
+  .flare-name {
+    flex: 1;
+  }
+  .flare-item,
+  .roomify-details {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1025px) {
+  .flare-name {
+    min-width: 100%;
+  }
+  .flare-item {
+    gap: 67px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .roomify-parent {
+    min-width: 100%;
+  }
+  .group-div {
+    padding-left: 33px;
+    padding-right: 29px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .accommodation,
+  .roomify {
+    font-size: 19px;
+  }
+  .accommodation-wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+  .group-div,
+  .roomify-parent {
+    padding-top: 273px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+  }
+  .group-div {
+    padding-top: 22px;
+  }
+  .e-commerce,
+  .mobile-app-uiux1,
+  .responsive-web-app1 {
+    font-size: 19px;
+  }
+  .flare-item {
+    gap: 33px;
+  }
+}

@@ -1,0 +1,173 @@
+.flare-case-study-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(180deg, #a1a1a1, #3b3b3b);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.e-commerce-mobile-app,
+.flare1 {
+  position: absolute;
+  display: inline-block;
+  z-index: 1;
+}
+.flare1 {
+  margin: 0;
+  top: 343px;
+  left: 103px;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: inherit;
+  width: 129px;
+  height: 48px;
+  min-width: 129px;
+}
+.e-commerce-mobile-app {
+  top: 396px;
+  left: 105px;
+  width: 291px;
+  height: 29px;
+}
+.flare-2-icon {
+  position: absolute;
+  top: 89px;
+  left: 668px;
+  width: 400px;
+  height: 357.1px;
+  object-fit: cover;
+  z-index: 1;
+}
+.rectangle-header {
+  align-self: stretch;
+  height: 75px;
+  position: relative;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  box-sizing: border-box;
+  display: none;
+}
+.problem4 {
+  text-decoration: none;
+  position: relative;
+  font-weight: 600;
+  color: inherit;
+  cursor: pointer;
+  z-index: 4;
+}
+.problem-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.research3 {
+  display: inline-block;
+  min-width: 110px;
+}
+.final-ui4,
+.goal4,
+.next-steps2,
+.research3 {
+  text-decoration: none;
+  position: relative;
+  font-weight: 600;
+  color: inherit;
+  cursor: pointer;
+  z-index: 3;
+}
+.final-ui4,
+.next-steps2 {
+  display: inline-block;
+  min-width: 87px;
+}
+.next-steps2 {
+  min-width: 129px;
+}
+.research-steps,
+.research-steps-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.research-steps {
+  gap: 19px;
+}
+.research-steps-wrapper {
+  padding: 0 9px;
+  box-sizing: border-box;
+}
+.b3 {
+  margin-top: -3px;
+  position: relative;
+  display: inline-block;
+  min-width: 117px;
+  z-index: 3;
+}
+.frame,
+.rectangle-parent5 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  color: #1e1e1e;
+}
+.rectangle-parent5 {
+  position: absolute;
+  top: 29px;
+  left: 278px;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  box-sizing: border-box;
+  width: 723px;
+  flex-direction: column;
+  padding: 21px 7px 0;
+  max-width: 100%;
+  z-index: 2;
+  color: #000;
+}
+.flare-case-study {
+  align-self: stretch;
+  height: 501px;
+  position: relative;
+  background: linear-gradient(180deg, #a1a1a1, #3b3b3b);
+  max-width: 100%;
+  text-align: left;
+  font-size: 24px;
+  color: #fff;
+  font-family: Inter;
+}
+@media screen and (max-width: 1050px) {
+  .flare1 {
+    font-size: 32px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .research-steps {
+    flex-wrap: wrap;
+  }
+  .flare-case-study {
+    height: auto;
+    min-height: 501;
+  }
+}
+@media screen and (max-width: 450px) {
+  .flare1 {
+    font-size: 24px;
+  }
+  .b3,
+  .e-commerce-mobile-app,
+  .final-ui4,
+  .goal4,
+  .next-steps2,
+  .problem4,
+  .research3 {
+    font-size: 19px;
+  }
+}

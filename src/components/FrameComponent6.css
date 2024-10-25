@@ -1,0 +1,35 @@
+.finaluiroom {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Create a 4-column layout */
+  gap: 2px; /* Add space between the images */
+  max-width: 100%;
+  align-items: center;
+  justify-items: center; /* Center the images in each column */
+}
+
+roomifyhome-1-parent {
+  width: 231px;
+  position: relative; /* Ensure the images take up the full width of their container */
+  height: 500px; /* Set a fixed height of 500px */
+  object-fit: cover; /* Make sure the images cover the available space without distortion */
+}
+
+roomifyhome-1-icon{
+  width: 225px;
+}
+
+
+.finaluiroom {
+  flex-direction: row;
+  justify-content: flex-start;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.final-ui-group {
+  text-align: center;
+  font-size: 24px;
+  color: #000;
+  font-family: Inter, sans-serif;
+}

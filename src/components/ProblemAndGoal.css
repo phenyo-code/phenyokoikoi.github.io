@@ -1,0 +1,108 @@
+.as-financial-services {
+  margin: 0;
+}
+.as-financial-services-container {
+  position: relative;
+  color: rgba(0, 0, 0, 0.6);
+}
+.problem-details1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 31px;
+  max-width: 100%;
+}
+.goal-statement {
+  position: relative;
+}
+.integration-with-apple {
+  margin-bottom: 0;
+}
+.integration-with-apple-pay-and {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: 32px;
+}
+.and-bill-payments {
+  margin: 0;
+  white-space: pre-wrap;
+}
+.instant-notifications-and-deta {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: 32px;
+  white-space: pre-wrap;
+}
+.finora-aims-to-container {
+  width: 1148px;
+  position: relative;
+  display: inline-block;
+}
+.goal-details,
+.goal3 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.goal-details {
+  flex-direction: row;
+  padding: 0 0 0 1px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.goal3 {
+  flex-direction: column;
+  gap: 48px;
+}
+.problem-and-goal,
+.problem3 {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.problem3 {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 68px;
+}
+.problem-and-goal {
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 28px 74px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 24px;
+  color: #000;
+  font-family: Inter;
+}
+@media screen and (max-width: 1200px) {
+  .problem3 {
+    gap: 34px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .problem-details1 {
+    gap: 15px;
+  }
+  .goal3 {
+    gap: 24px;
+  }
+  .problem3 {
+    gap: 17px;
+  }
+  .problem-and-goal {
+    padding-bottom: 48px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .as-financial-services-container,
+  .finora-aims-to-container,
+  .goal-statement {
+    font-size: 19px;
+  }
+}

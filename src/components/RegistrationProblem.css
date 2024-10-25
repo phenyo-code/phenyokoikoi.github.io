@@ -1,0 +1,147 @@
+.role4 {
+  position: absolute;
+  top: 43px;
+  left: 1014px;
+  font-weight: 600;
+  display: inline-block;
+  width: 52px;
+  height: 29px;
+  min-width: 52px;
+}
+.research-uiux4 {
+  top: 72px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.6);
+  width: 205px;
+  z-index: 1;
+}
+.june-july,
+.research-uiux4,
+.timeline4 {
+  position: absolute;
+  left: 1014px;
+  display: inline-block;
+  height: 29px;
+}
+.timeline4 {
+  top: 140px;
+  font-weight: 600;
+  width: 101px;
+  min-width: 101px;
+}
+.june-july {
+  top: 178px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.6);
+  width: 197px;
+}
+.north-west-university-struggle {
+  margin: 0;
+}
+.north-west-university-struggle-container {
+  position: absolute;
+  top: 0;
+  left: 105px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.6);
+}
+.user-research3 {
+  position: absolute;
+  margin: 0 !important;
+  bottom: 12px;
+  left: 240px;
+  display: inline-block;
+}
+.registeryear-1-icon {
+  width: 784px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+}
+.paywithcard-1-icon {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  right: -392px;
+  bottom: -11px;
+  object-fit: cover;
+  z-index: 1;
+}
+.user-research2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  max-width: 100%;
+}
+.receiptnwu-1-icon {
+  width: 784px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 2;
+}
+.receipt-image {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 11px 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.registration-problem-inner,
+.user-research-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.user-research-parent {
+  margin-left: -135px;
+  gap: 12px;
+  flex-shrink: 0;
+  max-width: 124%;
+}
+.registration-problem-inner {
+  position: absolute;
+  top: 313px;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  max-width: 100%;
+  z-index: 1;
+}
+.registration-problem {
+  position: absolute;
+  top: 579px;
+  left: 0;
+  width: 100%;
+  height: 1024px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 24px;
+  color: #000;
+  font-family: Inter;
+}
+@media screen and (max-width: 1225px) {
+  .user-research-parent {
+    flex-wrap: wrap;
+  }
+  .registration-problem {
+    height: auto;
+    min-height: 1024;
+  }
+}
+@media screen and (max-width: 450px) {
+  .june-july,
+  .north-west-university-struggle-container,
+  .research-uiux4,
+  .role4,
+  .timeline4,
+  .user-research3 {
+    font-size: 19px;
+  }
+}

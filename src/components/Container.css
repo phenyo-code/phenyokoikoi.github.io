@@ -1,0 +1,244 @@
+.shape-icon1 {
+    height: 446px;
+    width: 657px;
+    position: absolute;
+    margin: 0 !important;
+    right: -36px;
+    bottom: -24px;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .frame-child8 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(180deg, #e46035, #7e351d);
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+  .roomify1 {
+    margin: 0;
+    position: absolute;
+    top: 343px;
+    left: 103px;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: inherit;
+    display: inline-block;
+    width: 164px;
+    height: 49px;
+    z-index: 1;
+  }
+  .details-child {
+    height: 33px;
+    width: 36px;
+    position: relative;
+    border-radius: 67876576px;
+    background-color: #e46035;
+    display: none;
+  }
+  .com {
+    position: relative;
+    display: inline-block;
+    min-width: 33px;
+    z-index: 2;
+  }
+  .details2 {
+    position: absolute;
+    top: 351px;
+    left: 267px;
+    border-radius: 67876576px;
+    background-color: #e46035;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 8px 1px 9px 2px;
+    z-index: 1;
+    font-size: 13px;
+  }
+  .student-accommodation-platform {
+    position: absolute;
+    top: 396px;
+    left: 105px;
+    display: inline-block;
+    width: 397px;
+    height: 29px;
+    z-index: 1;
+  }
+  .roomify-2-icon {
+    position: absolute;
+    top: 88px;
+    left: 574px;
+    width: 300px;
+    height: 327px;
+    object-fit: cover;
+    z-index: 2;
+  }
+  .content-item {
+    width: 1075px;
+    height: 75px;
+    position: relative;
+    border-radius: 10px;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    box-sizing: border-box;
+    display: none;
+    max-width: 100%;
+  }
+  .problem6 {
+    text-decoration: none;
+    position: relative;
+    font-weight: 600;
+    color: inherit;
+    cursor: pointer;
+    z-index: 5;
+  }
+  .problem-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 8px 0 0;
+  }
+  .designs5,
+  .goal6,
+  .research5 {
+    text-decoration: none;
+    position: relative;
+    font-weight: 700;
+    color: inherit;
+    cursor: pointer;
+    z-index: 4;
+  }
+  .designs5,
+  .goal6 {
+    display: inline-block;
+    min-width: 55px;
+  }
+  .designs5 {
+    min-width: 97px;
+  }
+  .goal-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 22px;
+  }
+  .prototype3,
+  .results {
+    text-decoration: none;
+    position: relative;
+    font-weight: 700;
+    color: inherit;
+    display: inline-block;
+    min-width: 89px;
+    cursor: pointer;
+    z-index: 4;
+  }
+  .prototype3 {
+    min-width: 118px;
+  }
+  .navigation,
+  .problem-container-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .problem-container-parent {
+    gap: 22px;
+  }
+  .navigation {
+    padding: 0 0 0 7px;
+    box-sizing: border-box;
+  }
+  .b5 {
+    margin-top: -3px;
+    position: relative;
+    display: inline-block;
+    min-width: 117px;
+    z-index: 4;
+  }
+  .content3,
+  .empty {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0;
+    color: #1e1e1e;
+  }
+  .content3 {
+    position: absolute;
+    top: 16px;
+    left: 105px;
+    border-radius: 10px;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    box-sizing: border-box;
+    flex-direction: column;
+    padding: 21px 60px 0 65px;
+    max-width: 100%;
+    z-index: 3;
+    color: #000;
+  }
+  .rectangle-parent6 {
+    height: 501px;
+    flex: 1;
+    position: relative;
+    background: linear-gradient(180deg, #e46035, #7e351d);
+    max-width: 100%;
+  }
+  .container1,
+  .layout {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .layout {
+    flex: 1;
+    position: relative;
+  }
+  .container1 {
+    align-self: stretch;
+    padding: 0 0 6px;
+    box-sizing: border-box;
+    text-align: left;
+    font-size: 24px;
+    color: #fff;
+    font-family: Inter;
+  }
+  @media screen and (max-width: 1050px) {
+    .roomify1 {
+      font-size: 32px;
+    }
+    .problem-container-parent {
+      flex-wrap: wrap;
+    }
+    .rectangle-parent6 {
+      height: auto;
+      min-height: 501;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .roomify1 {
+      font-size: 24px;
+    }
+    .b5,
+    .designs5,
+    .goal6,
+    .problem6,
+    .prototype3,
+    .research5,
+    .results,
+    .student-accommodation-platform {
+      font-size: 19px;
+    }
+  }
+  
