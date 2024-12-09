@@ -13,7 +13,7 @@ import CaseStudyFLARE from "./pages/CaseStudyFLARE";
 import ABOUT from "./pages/ABOUT";
 import CaseStudyUniEats from "./pages/CaseStudyUniEats";
 import CaseStudyRoomify from "./pages/CaseStudyRoomify"; 
-import "./App.css"; // Import your CSS for the blur styles
+
 
 function App() {
   const action = useNavigationType();
