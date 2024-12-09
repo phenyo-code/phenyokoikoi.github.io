@@ -21,19 +21,6 @@ function App() {
   const pathname = location.pathname;
   const [isSmallScreen, setIsSmallScreen] = useState(false);
 
-  useEffect(() => {
-    // Check screen width and update state
-    const checkScreenWidth = () => {
-      setIsSmallScreen(window.innerWidth < 1300);
-    };
-
-    // Run check on initial load and add resize listener
-    checkScreenWidth();
-    window.addEventListener("resize", checkScreenWidth);
-
-    // Clean up listener on component unmount
-    return () => window.removeEventListener("resize", checkScreenWidth);
-  }, []);
 
   useEffect(() => {
     if (action !== "POP") {
